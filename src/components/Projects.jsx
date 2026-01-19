@@ -9,12 +9,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Dashboard",
-      description: "A comprehensive dashboard for managing online stores, featuring real-time analytics and inventory management.",
-      tech: ["React", "Tailwind", "Node.js"],
+      title: t('projects.project1.title'),
+      description: t('projects.project1.description'),
+      tech: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80",
-      github: "#",
-      demo: "#"
+      github: "https://github.com/stecc88/crud3",
+      demo: "https://crud3-x65b.vercel.app/"
     },
     {
       id: 2,

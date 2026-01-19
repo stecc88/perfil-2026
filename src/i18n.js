@@ -94,7 +94,11 @@ const resources = {
       projects: {
         title: "Featured Projects",
         view_code: "View Code",
-        view_demo: "View Demo"
+        view_demo: "View Demo",
+        project1: {
+          title: "MERN",
+          description: "MERN web application for client management. It allows creating, listing, editing and deleting clients with first name, last name and phone number."
+        }
       },
       skills: {
         title: "Technical Skills",
